@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+#hed {
+  width:100%;
+  height: 130px;
+  background:#ffffff;
+  border-bottom: 20px solid #303030;
+}
+.n1 {
+  line-height:90px;
+float:left;
+  color: #dadada;
+  text-shadow: 15px -2px whitesmoke;
+  font-size: 130px;
+  -webkit-text-stroke-width: 1px;
+  background: url('https://i.pinimg.com/originals/a3/fe/01/a3fe01d5dd7efca70bdf565366df9900.gif') -160px -180px;
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.mu li{
+color:#fff71c;
+display:inline;
+margin: 30px 0px;
+}
+li a{
+  color:#eb0f0f;
+  font-size:27px;
+  margin-right:90px;
+  padding:20px 10px;
+  color:#000000;
+  border:1px solid #272828 ;
+  border-radius:8.9px;
+}
+@media only screen and (max-width:720px) {
+  .n1 {
+    line-height:120px;
+    width:70%;
+  float:left;
+    color: #ffffff;
+    text-align:center;
+  transform:translateX(45px);
+    text-shadow: 5px -2px whitesmoke;
+    font-size: 100px;
+    -webkit-text-stroke-width: 1px;
+    background: url('https://i.pinimg.com/originals/a3/fe/01/a3fe01d5dd7efca70bdf565366df9900.gif') -165px -180px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+#hed{
+  height:120px;
+}
+li a{
+  margin-bottom:20px;
+  transform:translate(100px,20px);
+  width:300px;
+  height:80px;
+  display:flex;
+  flex-wrap:wrap;
+  border:3px solid #ebeade;
+  box-shadow:-9px 9px #f0f3f4;
+  
+}
+a{
+ display:center;
+ justify-content:right;
+}
+#a1,#a2,#a3{
+  background-image:url('https://vignette3.wikia.nocookie.net/dragonball/images/8/8a/1black_rock_shooter_the_game_brs_gif_by_dantealmark-d4sr0zk.gif');
+  background-size: 320px 130px;
+  font-size:30px;
+  color:#686868;
+  -webkit-text-stroke-width:1px;
+ -webkit-text-fill-color:#686868;
+}
+#a2{
+  background-image:url('https://data.whicdn.com/images/64233520/original.gif');
+  background-size: 300px 120px;
+  font-size:30px;
+  -webkit-text-stroke-width:1px;
+ -webkit-text-fill-color:#686868;
+ color:#6868686;
+}
+#a3{
+  background-image:url('https://cliply.co/wp-content/uploads/2019/12/371903520_SOCIAL_ICONS_TRANSPARENT_400px.gif');
+  background-size: 400px -100px;
+  font-size:30px;
+  -webkit-text-stroke-width:1px;
+ -webkit-text-fill-color:#686868;
+ color:#686868;
+}
+li {
+  background:whitesmoke;
+}
+}
